@@ -21,6 +21,8 @@ object Models {
     val WARPED_TREE_MINIATURE = modelItem("tree_miniature/warped")
     val GIANT_RED_MUSHROOM_MINIATURE = modelItem("tree_miniature/red_mushroom")
     val GIANT_BROWN_MUSHROOM_MINIATURE = modelItem("tree_miniature/brown_mushroom")
+    val CHERRY_TREE_MINIATURE = modelItem("tree_miniature/cherry")
+    val PALE_OAK_TREE_MINIATURE = modelItem("tree_miniature/pale_oak")
     
     // Water levels
     val COBBLESTONE_GENERATOR_WATER_LEVELS = fluidLevels("cobblestone_generator/water")
