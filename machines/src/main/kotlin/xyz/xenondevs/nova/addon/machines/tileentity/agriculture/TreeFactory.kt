@@ -52,7 +52,9 @@ private val PLANTS = mapOf(
     Material.CRIMSON_FUNGUS to PlantConfiguration(Models.CRIMSON_TREE_MINIATURE, ItemStack(Material.CRIMSON_STEM), Color(121, 0, 0)),
     Material.WARPED_FUNGUS to PlantConfiguration(Models.WARPED_TREE_MINIATURE, ItemStack(Material.WARPED_STEM), Color(22, 124, 132)),
     Material.RED_MUSHROOM to PlantConfiguration(Models.GIANT_RED_MUSHROOM_MINIATURE, ItemStack(Material.RED_MUSHROOM, 3), Color(192, 39, 37)),
-    Material.BROWN_MUSHROOM to PlantConfiguration(Models.GIANT_BROWN_MUSHROOM_MINIATURE, ItemStack(Material.BROWN_MUSHROOM, 3), Color(149, 112, 80))
+    Material.BROWN_MUSHROOM to PlantConfiguration(Models.GIANT_BROWN_MUSHROOM_MINIATURE, ItemStack(Material.BROWN_MUSHROOM, 3), Color(149, 112, 80)),
+    Material.CHERRY_SAPLING to PlantConfiguration(Models.CHERRY_TREE_MINIATURE,ItemStack(Material.CHERRY_LOG),Color(242, 162, 198)),
+    Material.PALE_OAK_SAPLING to PlantConfiguration(Models.PALE_OAK_TREE_MINIATURE,ItemStack(Material.PALE_OAK_LOG),Color(201, 201, 174))
 )
 
 private val BLOCKED_SIDES = enumSetOf(BlockSide.FRONT, BlockSide.LEFT, BlockSide.RIGHT, BlockSide.TOP)
